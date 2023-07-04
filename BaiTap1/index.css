@@ -1,0 +1,31 @@
+:root {
+    /* Dichiarazione di variabili */
+    --white: #FFF2F2;
+    --blue: #041726;
+    --yellow: #FFB042;
+    --sea: #4AC4B8;
+    --red: #E84054;
+    --spacing: 10px;
+    --blur: 10px;
+    --base: var(--yellow);
+}
+
+body{
+    background: var(--blue);
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.special_letter{
+    color: var(--sea);
+}
+
+img{
+    max-width: 700%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    margin-top: 50px;
+}
